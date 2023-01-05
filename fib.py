@@ -7,4 +7,7 @@ def fib(n): # return Fibonacci series up to n
 		a, b = b, a+b
 	return result
 
-print(fib(500))    # call it
+num = 30000
+print("Fibonacci series up to "+str(num)+' is')
+print(fib(num))    # call it
+print('total in %d numbers' %(len(fib(num))))
